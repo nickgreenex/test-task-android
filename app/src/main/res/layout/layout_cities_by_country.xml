@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cities_by_country"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/countries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/countries_spinner_prompt"
+        android:spinnerMode="dialog" />
+
+    <ListView
+        android:id="@+id/cities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestTask</string>
+    <string name="downloading">fetching data...</string>
+    <string name="countries_spinner_prompt">Select country</string>
+</resources>
